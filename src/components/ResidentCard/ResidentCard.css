@@ -1,0 +1,50 @@
+article {
+    height: 540px;
+    background-color: #073436;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 2px #071a1f;   
+}
+
+article:hover {
+    transform: translateY(-13px);
+    cursor: pointer;
+}
+article div {
+    width: 100%;
+}
+article div img {
+    max-width: 260px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+article div img:hover {
+    transform: translateY(-13px);
+}
+
+article h4 {
+    width: 250px;
+    padding: 2px;
+    font-size: 22px;
+    color: #4ec121;
+    border-bottom: 1px #43868a solid;
+}
+
+article ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+}
+
+article ul li {
+    margin-top: 10px;
+}
+
+article ul li p {
+    font-size: 15px;
+}

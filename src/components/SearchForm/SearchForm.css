@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+}
+
+form input {
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: #073436;
+    border-color: #073436;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+form p {
+    padding: 5px;
+}
+
+form button {
+    width: 40px;
+    height: 50px;
+    background-color: #073436;
+    color: rgb(217, 222, 226);
+    font-size: 17px;
+    border-color: #073436;
+    cursor: pointer;
+}

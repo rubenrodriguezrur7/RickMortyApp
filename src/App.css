@@ -1,0 +1,54 @@
+h1 {
+    background-size: cover;
+    height: 340px;
+    margin: 0;
+}
+
+h3 {
+    margin: 70px 0px 110px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: #4ec121;
+}
+
+@media screen and (max-width: 1030px) {
+    h1 {
+        background-size: cover;
+        height: 260px;
+    }
+    .container-pagination {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    h1 {
+        background-size: cover;
+        height: 200px;
+    }
+    .container-pagination {
+        margin-top: -140px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        background-size: cover;
+        height: 150px;
+    }
+    .container-pagination {
+        margin-top: -190px;
+    }
+    
+}
+
+@media screen and (max-width: 455px) {
+    h1 {
+        background-size: cover;
+        height: 115px;
+    }
+    .container-pagination {
+        margin-top: -225px;
+    }
+}

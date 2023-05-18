@@ -1,0 +1,47 @@
+section {
+    height: 220px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #073436;
+}
+
+section h2 {
+    margin: 10px 0px 50px 0px;
+    text-align: center;
+    color: #4ec121;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        height: 220px;
+        margin: 20px;
+        padding: 5px;
+        font-size: 21px;
+        background-color: #073436;
+    }
+    
+    section h2 {
+        margin: 25px 0px 30px 0px;
+        text-align: center;
+        color: #4ec121;
+    }
+    
+}
+
+@media screen and (max-width: 455px) {
+    section {
+        height: 220px;
+        margin: 20px;
+        padding: 20px;
+        font-size: 20px;
+        background-color: #073436;
+    }
+    
+    section h2 {
+        margin: 0px 0px 30px 0px;
+        text-align: center;
+        color: #4ec121;
+    }
+    
+}
